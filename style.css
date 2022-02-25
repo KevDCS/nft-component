@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+    * {
+        margin: 0;
+    }
+
+    body {
+        font-family: 'Outfit', 'Font Awesome 5 Brands', 'Font Awesome 5 Free', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: hsl(217, 54%, 11%);
+        padding: 5% 0;
+    }
+
+    .card-container {
+        width: 350px;
+        height: 600px;
+        background-color: hsl(216, 50%, 16%);
+        box-shadow: 0px 0px 30px 10px rgba(0,0,0,0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 40px 20px;
+        border-radius: 20px;
+    }
+
+    .hero-img {
+        padding-top: 5px;
+        height: 300px;
+        width: 300px;
+        margin: 0;
+        cursor: pointer;
+    }
+
+    .hero-img img {
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .hover-color {
+        position: relative;
+        top: -101.1%;
+        background-color: hsl(178, 100%, 50%);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        border-radius: 10px;
+    }
+
+    .hover-color img:hover {
+        height: 50px;
+        color: white;
+        opacity: 1;
+    }
+
+    .hover-color:hover {
+        opacity: 0.5;
+    }
+
+    .main-title {
+        height: 100px;
+        width: 300px;
+        font-weight: 600;
+        font-size: 14px;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .main-title h1 {
+        margin: 0 0 10px 0;
+        padding: 0 0 15px 0;
+        cursor: pointer;
+    }
+
+    .main-title h1:hover {
+        color: hsl(178, 100%, 50%);
+    }
+
+    .main-title span {
+        padding: 0 0 15px 0;
+        font-size: 18px;
+        font-weight: 300;
+        color: hsl(215, 51%, 70%);
+    }
+
+    .eth-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 20px;
+        width: 300px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .eth {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+    }
+
+    .days {
+        color: hsl(215, 51%, 70%);
+    }
+
+    .fa-clock {
+        font-style: normal;
+        font-size: 14px;
+    }
+
+    .creator {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+        width: 300px;
+        height: 25px;
+        padding: 15px 0 15px 0;
+        border-top: 0.5px solid hsl(215, 51%, 70%);
+    }
+
+    .creator img {
+        max-height: 100%;
+        border: 0.5px solid white;
+        border-radius: 50%;
+    }
+
+    .creator p {
+        padding-left: 15px;
+        color: hsl(215, 51%, 70%);
+    }
+
+    .creator span {
+        color: white;
+        cursor: pointer;
+    }
+
+    .creator span:hover {
+        color: hsl(178, 100%, 50%);
+    }
+
+
+    
+    
+    
+    .attribution {
+        display: flex;
+        font-size: 11px;
+        text-align: center;
+        color: white;
+    }
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
